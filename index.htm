@@ -26,9 +26,11 @@
       <section class="download">
         <h2 class="visually-hidden">Скачать Pink</h2>
         <a class="download__btn" href="#">Скачать приложение</a>
-        <a class="download__sys-item download__sys-item--apple" href="#">Скачать для Apple</a>
-        <a class="download__sys-item download__sys-item--android" href="#">Скачать для Android</a>
-        <a class="download__sys-item download__sys-item--windows" href="#">Скачать для Windwos</a>
+        <ul class="download__sys-list">
+          <li class="download__sys-item download__sys-item--apple"><a href="#">Скачать для Apple</a></li>
+          <li class="download__sys-item download__sys-item--android"><a href="#">Скачать для Android</a></li>
+          <li class="download__sys-item download__sys-item--windows"><a href="#">Скачать для Windwos</a></li>
+        </ul>
         <p class="page-txt download_txt">Доступно для iPhone, iPad, Android, Windows Phone,
         OS X, Windows 8</p>
       </section>
@@ -55,6 +57,37 @@
             делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
+      </section>
+      <section class="reviews">
+        <h2 class="visually-hidden">Отзывы</h2>
+        <div class="slider">
+          <ul class="reviews__list slider__list">
+            <li class="reviews__item slider__item">
+              <blockquote class="reviews__content">
+                <p class="reviews__txt">«Это приложение перевернуло мой мир и позволило
+                по-новому взглянуть на привычные серые вещи! А еще я познакомился
+                со своей будущей женой в комментариях к выложенной фотографии!»</p>
+                <cite class="rewiews__autor">Николай Петров</cite>
+              </blockquote>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="price slider">
+        <h2 class="visually-hidden">Цены</h2>
+        <div class="slider__list">
+          <section class="slider__item">
+            <header class="price__header price__header--hit">
+              <b class="price__name">Стандарт</b>
+              <p class="price__price">3,99 USD</p>
+            </header>
+            <ul class="price__description-list">
+              <li class="price__description-item price__description-item--positive">Розовый фильтр</li>
+              <li class="price__description-item price__description-item--positive">Смайлики</li>
+              <li class="price__description-item price__description-item--negative">Коментарии</li>
+            </ul>
+          </section>
+        </div>
       </section>
     </main>
   </body>
