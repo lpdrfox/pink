@@ -24,7 +24,56 @@
       </div>
     </header>
     <main class="page-main">
-
+      <p class="promo-txt page-main__inner-page-txt">Поделитесь своей историей и
+      получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
+      <form class="page-main__form user_form" action="https://htmlacademy.ru/echo" method="post">
+        <fieldset class="user_form__fieldset">
+          <legend class="visually-hidden user_form__legend">Ваше ФИО</legend>
+          <label class="user_form__label user_form__label--txt-input" for="name">Фамилия:</label>
+          <input class="user_form__txt-input" type="text" name="name" value="" id="name" placeholder="Укажите фамилию *" required>
+          <label class="user_form__label user_form__label--txt-input" for="surname">Имя:</label>
+          <input class="user_form__txt-input" type="text" name="surname" value="" id="surname" placeholder="Введите ваше имя *" required>
+          <label class="user_form__label user_form__label--txt-input" for="patronymic">Отчество:</label>
+          <input class="user_form__txt-input" type="text" name="patronymic" value="" id="patronymic" placeholder="Ну и отчество тоже">
+        </fieldset>
+        <fieldset class="user_form__fieldset">
+          <legend class="user_form__legend">Ваши безбашенные достижения в путешествии</legend>
+          <input class="user_form__chkbox" type="checkbox" name="achievements-1" value="" id="achiev-1">
+          <label class="user_form__label--notxt-input" for="achiev-1">Сделал селфи с акулой</label>
+          <input class="user_form__chkbox" type="checkbox" name="achievements-2" value="" id="achiev-2">
+          <label class="user_form__label--notxt-input" for="achiev-2">Обгорел на пляже</label>
+          <input class="user_form__chkbox" type="checkbox" name="achievements-3" value="" id="achiev-3">
+          <label class="user_form__label--notxt-input" for="achiev-3">Видел Чака Норриса</label>
+          <input class="user_form__chkbox" type="checkbox" name="achievements-4" value="" id="achiev-4">
+          <label class="user_form__label--notxt-input" for="achiev-4">Накупил сувениров</label>
+          <input class="user_form__chkbox" type="checkbox" name="achievements-5" value="" id="achiev-5">
+          <label class="user_form__label--notxt-input" for="achiev-5">Удержал башню</label>
+          <input class="user_form__chkbox" type="checkbox" name="achievements-6" value="" id="achiev-6">
+          <label class="user_form__label--notxt-input" for="achiev-6">Разгромил отель</label>
+        </fieldset>
+        <fieldset class="user_form__fieldset">
+          <legend class="visually-hidden user_form__legend">Ваши контактные данные</legend>
+          <label class="user_form__label user_form__label--txt-input" for="tel">Номер телефона</label>
+          <input class="user_form__txt-input" type="tel" name="tel" value="" id="tel" placeholder="Номер, пожалуйста">
+          <label class="user_form__label user_form__label--txt-input" for="email">Адрес почты</label>
+          <input class="user_form__txt-input" type="email" name="email" value="" id="email" placeholder="Введите почту *" required>
+        </fieldset>
+        <fieldset class="user_form__fieldset">
+          <legend class="user_form__legend">С каким приложением путешествовали?</legend>
+          <input class="user_form__radio" type="radio" name="app" value="" id="radio-1" checked>
+          <label class="user_form__label--notxt-input" for="radio-1">Pink для iOS</label>
+          <input class="user_form__radio" type="radio" name="app" value="" id="radio-2">
+          <label class="user_form__label--notxt-input" for="radio-2">Pink на Android</label>
+          <input class="user_form__radio" type="radio" name="app" value="" id="radio-3">
+          <label class="user_form__label--notxt-input" for="radio-3">Windows Phone</label>
+        </fieldset>
+        <fieldset class="user_form__fieldset">
+          <legend class="user_form__legend">Опишите свои эмоции</legend>
+          <textarea name="emotions" rows="8" cols="80" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+        </fieldset>
+        <input class="user_form__submit submit-btn" type="submit" name="" value="Отправить форму">
+        <p class="user_form__note"><sup>*</sup> — обязательные поля</p>
+      </form>
     </main>
     <footer class="inner-page-footer">
         <img class="inner-page-footer__logo-img" src="http://via.placeholder.com/150x50" alt="">
